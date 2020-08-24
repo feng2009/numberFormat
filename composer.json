@@ -1,0 +1,20 @@
+{
+    "name": "numberformat/numberformat",
+	"description": "一个处理数字的包",
+    "authors": [
+        {
+            "name": "wuchen",
+            "email": "lyf1918@163.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+		"php": ">=7.2.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "numberFormat\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
